@@ -28,9 +28,9 @@ function AvatarEditor() {
   };
 
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex  flex-row">
       {/* Avatar Preview */}
-      <div className="w-full md:w-1/2 p-4 relative border border-black mb-4 md:mb-0">
+      <div className="w-full md:w-1/2 md:h-1/2 p-4 relative mb-4 md:mb-0">
         <h2 className="mb-2 text-center">Avatar Preview</h2>
         <div className="relative">
           {/* Glasses */}
